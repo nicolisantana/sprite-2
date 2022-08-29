@@ -1,0 +1,37 @@
+body{background-color: #000000;
+}
+
+
+#anima-div{
+    background: url(../imgs/sprite-multi_1.png) -0px -531px;
+    width: 120px;
+    height: 120px;
+    animation: anima-sprite 1s steps(10) infinite;
+}
+
+#anima2-div{
+    background: url(../imgs/sprite-multi_1.png) -0px -916px;
+    width: 120px;
+    height: 120px;
+    animation: anima-sprite 1s steps(10) infinite;
+}
+
+#anima3-div{
+    background: url(../imgs/sprite-multi_1.png) -0px -776px;
+    width: 120px;
+    height: 120px;
+    animation: anima-sprite 1s steps(10) infinite;
+}
+
+#anima4-div{
+    background: url(../imgs/sprite-multi_1.png) -0px -776px;
+    width: 120px;
+    height: 120px;
+    margin-left: 80%;
+    animation: anima-sprite 1s steps(10) infinite;
+}
+
+@keyframes anima-sprite{
+    100%{ background-position-x: -1200px;}
+}
+
